@@ -208,9 +208,29 @@ table {
     border-collapse: collapse;
 }
 
+fieldset {
+    background-color: rgb(106, 142, 219);
+    border: solid 3px;
+    border-color: rgb(40, 77, 156);
+    padding: 10px 15px 20px 15px;
+}
+
+fieldset legend {
+    padding: 0 10px 0 10px;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.campo1 input label a {
+    text-align: left;
+}
+ 
 /* Estilo da tabela */
 
-table, caption, thead, tbody, tfoot {
+table, thead, tbody, tfoot {
     background-color: rgb(106, 142, 219);
     border: solid 2px;
     border-color: rgb(40, 77, 156);
